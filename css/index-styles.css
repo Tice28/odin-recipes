@@ -1,20 +1,29 @@
+.content-holder {
+    margin: 10px;
+}
+
 a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid gray;
+    margin: 10px;
+    font-size: large;
     color: black;
-    text-decoration: underline;
+    background-color: azure;
 }
 
-ul {
-    list-style-type: none;
-    border: 1px solid black;
-    text-align: left;
+.card, h1 {
+    border-radius: 5px;
+    background-color: cadetblue;
 }
 
-li {
+.card {
+    margin: auto;
     padding: 10px;
-    padding-left: 0%;
-    padding-right: 0%;
 }
 
 h1 {
     text-align: center;
+    color:white;
 }
